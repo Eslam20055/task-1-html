@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant - Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="about.html">About</a> |
+            <a href="events.html">Events</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- روابط تنقل داخل الصفحة -->
+        <nav>
+            <a href="#starters">Starters</a> |
+            <a href="#main">Main Dishes</a> |
+            <a href="#desserts">Desserts</a> |
+            <a href="#drinks">Drinks</a>
+        </nav>
+
+        <section id="starters">
+            <h2>Starters</h2>
+            <ul>
+                <li>Garlic Bread</li>
+                <li>Caesar Salad</li>
+            </ul>
+        </section>
+
+        <section id="main">
+            <h2>Main Dishes</h2>
+            <ul>
+                <li>Grilled Chicken</li>
+                <li>Spaghetti Bolognese</li>
+            </ul>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <ul>
+                <li>Chocolate Cake</li>
+                <li>Ice Cream</li>
+            </ul>
+        </section>
+
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <ul>
+                <li>Coffee</li>
+                <li>Fresh Juice</li>
+            </ul>
+        </section>
+
+        <!-- خطوات طلب الأوردر -->
+        <section>
+            <h2>How to Order</h2>
+            <ol>
+                <li>Choose your favorite dish</li>
+                <li>Fill the online reservation/order form</li>
+                <li>Enjoy your meal</li>
+            </ol>
+        </section>
+
+        <!-- مصطلحات -->
+        <section>
+            <h2>Cooking Terms</h2>
+            <dl>
+                <dt>Grilled</dt>
+                <dd>Cooked over direct heat</dd>
+                <dt>Baked</dt>
+                <dd>Cooked inside the oven</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicious Restaurant</p>
+    </footer>
+</body>
+</html>

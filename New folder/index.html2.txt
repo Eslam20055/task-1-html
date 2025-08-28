@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant - About</title>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="about.html">About</a> |
+            <a href="events.html">Events</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Our Story</h2>
+            <p>We started with a passion for food and creating unforgettable dining experiences.</p>
+        </article>
+
+        <aside>
+            <h3>Special Offer</h3>
+            <p>Get 20% off on weekends!</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicious Restaurant</p>
+    </footer>
+</body>
+</html>

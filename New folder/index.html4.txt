@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="about.html">About</a> |
+            <a href="events.html">Events</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <!-- البيانات الاساسية -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="guests">Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="20" required><br><br>
+
+            <button type="submit">Reserve</button>
+        </form>
+
+        <section>
+            <h2>Find us on:</h2>
+            <p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="mailto:info@delicious.com">Email</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicious Restaurant</p>
+    </footer>
+</body>
+</html>

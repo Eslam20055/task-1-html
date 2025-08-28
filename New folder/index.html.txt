@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Home</title>
+    <link rel="icon" type="image/png" href="favicon.png"> <!-- ايقونة صغيرة -->
+    <meta name="description" content="Welcome to our restaurant website, enjoy food, music and events.">
+</head>
+<body>
+    <!-- الهيدر بتاع الموقع -->
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+        <nav>
+            <!-- لينكات للتنقل بين الصفحات -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- المحتوى الاساسي -->
+    <main>
+        <!-- صورة للمطعم -->
+        <section>
+            <h2>Our Place</h2>
+            <img src="restaurant.jpg" alt="Restaurant Front View" width="500">
+            <!-- اخترت صورة مطعم كـ example -->
+        </section>
+
+        <!-- فيديو -->
+        <section>
+            <h2>Video Tour</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xPPLbEFbCAo?si=MKP4y-sbAD-aDSt0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <!-- الفيديو ده بدل ما نصور مطعم حطيت أي tour -->
+        </section>
+
+        <!-- صوت ترحيب -->
+        <section>
+            <h2>Welcome Audio</h2>
+            <audio controls autoplay>
+                <source src="welcome.mp3" type="audio/mpeg">
+                الصوت مش شغال عندك.
+            </audio>
+            <!-- صوت بسيط mp3 ممكن يتغير لمزيكا -->
+        </section>
+    </main>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2025 Our Restaurant | Follow us on 
+            <a href="https://facebook.com">Facebook</a>, 
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
